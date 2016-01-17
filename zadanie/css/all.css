@@ -1,0 +1,54 @@
+li:first-child{
+    width: 32%;
+    height:400px;
+    background-image: url("../images/yoda.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+#checkbox_yoda, #checkbox_trooper, #checkbox_vader ,label{
+    display:none;
+}
+
+li:nth-child(2){
+    width: 32%;
+    height:400px;
+    background-image: url("../images/trooper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+li:last-child{
+    width: 32%;
+    height:400px;
+    background-image: url("../images/vader.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+li{
+   margin-top:20%
+}
+
+button{
+    padding-top: 3px;
+    width: 500px;
+    height: 100px;
+    margin-left:32%;
+    font-size:40px;
+    background-color: black;
+    color:yellow;
+}
+
+
+.buttonColor{
+    background-color:yellow;
+    color:black;
+}
+
+
+.checked {
+    border:3px solid black;
+    border-radius: 20px;}
